@@ -1,0 +1,35 @@
+/*
+    Primitive Types--
+    Integers: u8, i8, u16, i16, u32, i32, u64, i64, u128, i128 (number of bits they take in memory)
+    Floats: f32, f64
+    Boolean (bool)
+    Characters (char)
+    Tuples
+    Arrays
+*/
+
+// Qasab maaha inaad markaste raaciso type lkn rust ayaa automatic uqaadanaysa type ka variable ka
+
+pub fn run() {
+    // Default is "i32"
+    let x =  10;
+
+    // Default is "f64"
+    let y = 2.5;
+
+    // Add explicit type
+    let z: i64 = 45454545000;
+
+    // Find max size
+    println!("Max i32: {}", std::i32::MAX);
+    println!("Max i64: {}", std::i64::MAX);
+
+    // Boolean
+    let is_activ: bool = true;
+
+    // Get Boolean from expression
+    let is_greater: bool = 10 < 5;
+    
+
+    println!("{:?}", (x, y, z, is_active, is_greater));
+}
