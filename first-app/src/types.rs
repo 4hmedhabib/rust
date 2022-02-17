@@ -8,7 +8,7 @@
     Arrays
 */
 
-// Qasab maaha inaad markaste raaciso type lkn rust ayaa automatic uqaadanaysa type ka variable ka
+// Qasab maaha inaad markaste raaciso type lkn rust ayaa automatic uqaadanaysa type ka variable ka  
 
 pub fn run() {
     // Default is "i32"
@@ -25,11 +25,14 @@ pub fn run() {
     println!("Max i64: {}", std::i64::MAX);
 
     // Boolean
-    let is_activ: bool = true;
+    let is_active: bool = true;
 
     // Get Boolean from expression
     let is_greater: bool = 10 < 5;
+
+    let a1 = 'a';
+    let face = '\u{1F600}';
     
 
-    println!("{:?}", (x, y, z, is_active, is_greater));
+    println!("{:?}", (x, y, z, is_active, is_greater, face));
 }
