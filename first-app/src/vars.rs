@@ -19,7 +19,7 @@ pub fn run(){
     println!("ID: {}", ID);
 
 
-    // Assign multi variables
+    // Assign multi _07-variables
     let (my_name, my_age) = ("Ahmed Habib", 21);
     println!("{} is {} year old", my_name , my_age);
 }
